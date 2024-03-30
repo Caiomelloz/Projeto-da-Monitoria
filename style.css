@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+
+.modo-escuro {
+    background-color: #121212;
+    color: #FFFFFF
+}
+
+.modo-claro {
+    background-color: #FFFFFF; 
+    color: #333333; }
+
+
+    button {
+        background-color: #4CAF50; 
+        color: white; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        font-size: 16px; 
+        transition: background-color 0.3s ease; 
+    }
+    
+    button:hover {
+        background-color: #45a049; 
+    }
